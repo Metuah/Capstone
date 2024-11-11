@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0b0e1a;
+    color: #e1e1e1;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    font-size: 1.5em;
+    color: #e6409a;
+    font-weight: bold;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #e1e1e1;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a.button {
+    padding: 8px 15px;
+    background-color: #e6409a;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 120px 20px;
+    background: linear-gradient(to right, #e6409a, #6e8efb);
+    color: #ffffff;
+    min-height: 100vh;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    padding: 12px 25px;
+    font-size: 1.1em;
+    background-color: #e6409a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 5px 15px rgba(230, 64, 154, 0.5);
+}
+
+.cta-button:hover {
+    background-color: #b83078;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 20px;
+    background-color: #1c1f2a;
+    text-align: center;
+}
+
+.feature {
+    max-width: 200px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 20px;
+    background-color: #141824;
+    text-align: center;
+}
+
+.cta h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #0b0e1a;
+    font-size: 0.9em;
+}
+
